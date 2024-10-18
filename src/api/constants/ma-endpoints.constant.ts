@@ -1,0 +1,1 @@
+export const MA_ENDPOINTS = {    authentication: {        register: '',        login: '',        logout: '',        verifyUsername: '',        sendVerificationCode: '',        validateVerificationCode: '',        resetPassword: '',        updatePassword: '',        verifyPassword: ''    }}

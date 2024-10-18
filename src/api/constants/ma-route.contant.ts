@@ -1,0 +1,1 @@
+export const MA_ROUT = {    authentication: {        dashboard: '',        base: '',        login: '',        forgotPassword: '',        updatePasswordRequired:  '',        help: ''    }}
