@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import {MA_ROUT} from '../api/constants/ma-route.contant';
+import {MA_ROUT} from './core/constants/ma-route.contant';
 import {LoginComponent} from './login/login.component';
 
 export const routes: Routes = [

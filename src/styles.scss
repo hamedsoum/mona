@@ -1,4 +1,80 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../src/app/styles/sh-constant';
+@import '../src/app/styles/sh-sizing';
+@import '../src/app/styles/sh-spacing';
+
 body{
+	height: 100vh;
+	width: 100%;
+	margin: 0;
 	font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.sh-flex {
+	display: flex;
+}
+
+
+.sh-flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.sh-flex-row-imp {
+	display: flex !important;
+	flex-direction: row !important;
+}
+
+.sh-flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.sh-flex-column-imp {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.sh-height-full {
+	height: 100%;
+}
+
+.sh-height-full-imp {
+	height: 100% !important;
+}
+
+.sh-width-full {
+	width: 100%;
+}
+
+.sh-width-full-imp {
+	width: 100% !important;
+}
+
+.sh-position-relative {
+	position: relative;
+}
+
+.sh-position-absolute {
+	position: absolute;
+}
+
+.sh-top-0 {
+	top: 0;
+}
+
+.sh-top-10 {
+	top: 10px;
+}
+
+.sh-bottom-0 {
+	bottom: 0;
+}
+
+.sh-right-0 {
+	right: 0;
+}
+
+.sh-left-0 {
+	left: 0;
 }

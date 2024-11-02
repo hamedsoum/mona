@@ -1,1 +1,11 @@
-bbb
+<div class="sh-flex-row sh-width-full">
+    <ma-sidebar class="sh-width-percent-20"></ma-sidebar>
+    <div class="sh-flex-column sh-width-percent-80 sh-position-relative">
+        <ma-header class="sh-position-absolute sh-top-0 sh-height-percent-10"></ma-header>
+        <div class="sh-position-absolute sh-top-10 sh-mt-100">
+            <router-outlet></router-outlet>
+        </div>
+        <ma-footer class="sh-position-absolute sh-bottom-0"></ma-footer>
+    </div>
+</div>
+
