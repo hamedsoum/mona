@@ -13,7 +13,6 @@ import {MAAuthenticationService} from '../api/services/ma-authentication.service
 export class AppComponent {
 
   private authenticationService = inject(MAAuthenticationService);
-  title = 'mona';
 
   public login(): void {
     this.authenticationService.login({ username: 'johnDoe', password: '*****'})
