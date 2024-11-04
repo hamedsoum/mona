@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="....">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/sh-constant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/sh-sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/sh-spacing.scss" afterDir="false" />
+    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="app structure and css added">
+      <change afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-task.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/services/ma-task.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/constants/ma-endpoints.constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-endpoints.constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/constants/ma-route.contant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/services/ma-authentication.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/services/ma-authentication.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/services/ma-http-client.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/services/ma-http-client.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/constants/ma-endpoints.constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-endpoints.constant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,11 @@
       <workItem from="1730473766316" duration="926000" />
       <workItem from="1730474798940" duration="908000" />
       <workItem from="1730497787430" duration="8175000" />
-      <workItem from="1730537282674" duration="3480000" />
+      <workItem from="1730537282674" duration="4213000" />
+      <workItem from="1730588495826" duration="1390000" />
+      <workItem from="1730700791122" duration="4037000" />
+      <workItem from="1730707726143" duration="229000" />
+      <workItem from="1730708003723" duration="486000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -154,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730507666370</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="app structure and css added">
+      <option name="closed" value="true" />
+      <created>1730541760765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541760765</updated>
+    </task>
+    <task id="LOCAL-00007" summary="app structure and css added">
+      <option name="closed" value="true" />
+      <created>1730541774538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730541774538</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="@auth0/angular-jwt installed ..." />
     <MESSAGE value="...." />
-    <option name="LAST_COMMIT_MESSAGE" value="...." />
+    <MESSAGE value="app structure and css added" />
+    <option name="LAST_COMMIT_MESSAGE" value="app structure and css added" />
   </component>
 </project>

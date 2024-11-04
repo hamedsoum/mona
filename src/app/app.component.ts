@@ -1,14 +1,12 @@
 import {Component, inject} from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import {MAAuthenticationService} from './core/services/ma-authentication.service';
-import {SidebarComponent} from './templates/sidebar/sidebar.component';
-import {HeaderComponent} from './templates/header/header.component';
-import {MAFooterComponent} from './templates/footer/ma-footer.component';
+import {MATemplatesModule} from './templates/ma-templates.module';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SidebarComponent, HeaderComponent, MAFooterComponent],
+  imports: [RouterOutlet, MATemplatesModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
   host: {class: 'sh-flex-row sh-height-full'}
