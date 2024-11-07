@@ -8,6 +8,7 @@ body{
 	height: 100vh;
 	width: 100%;
 	margin: 0;
+	color: #44546F;
 	font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .sh-flex {
@@ -33,6 +34,26 @@ body{
 .sh-flex-column-imp {
 	display: flex !important;
 	flex-direction: column !important;
+}
+
+.sh-justify-content-space-between {
+	justify-content: space-between;
+}
+
+.sh-justify-content-center {
+	justify-content: center;
+}
+
+.sh-align-items-center {
+	align-items: center;
+}
+
+.sh-align-items-star {
+	align-items: start;
+}
+
+.sh-align-items-end {
+	align-items: end;
 }
 
 .sh-height-full {
@@ -77,4 +98,11 @@ body{
 
 .sh-left-0 {
 	left: 0;
+}
+
+.sh-list-inline-container {
+	li {
+		display: inline;
+		margin-right: 20px;
+	}
 }

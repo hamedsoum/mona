@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="task service create">
-      <change afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" afterDir="false" />
+    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="Design Project domain.">
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/domaines/ma-task.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-task.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/sh-constant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sh-constant.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/sh-spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sh-spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/logo/logo.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/logo/logo.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +115,7 @@
       <workItem from="1730700791122" duration="4037000" />
       <workItem from="1730707726143" duration="229000" />
       <workItem from="1730708003723" duration="940000" />
-      <workItem from="1730937335308" duration="690000" />
+      <workItem from="1730937335308" duration="4019000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -173,7 +181,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730708750425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Design Project domain.">
+      <option name="closed" value="true" />
+      <created>1730938071085</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730938071085</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Design Project domain.">
+      <option name="closed" value="true" />
+      <created>1730938078425</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730938078425</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +208,7 @@
     <MESSAGE value="...." />
     <MESSAGE value="app structure and css added" />
     <MESSAGE value="task service create" />
-    <option name="LAST_COMMIT_MESSAGE" value="task service create" />
+    <MESSAGE value="Design Project domain." />
+    <option name="LAST_COMMIT_MESSAGE" value="Design Project domain." />
   </component>
 </project>

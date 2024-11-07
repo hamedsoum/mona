@@ -14,5 +14,5 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(),
     provideHttpClient(withFetch()),
     {provide: SHttpClientService, useExisting: MAHttpClientService}
-  ]
+  ],
 };
