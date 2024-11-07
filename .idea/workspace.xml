@@ -4,21 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="Design Project domain.">
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sh-constant.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sh-constant.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/sh-spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sh-spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/logo/logo.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/logo/logo.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="header...">
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_common_http.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_common_http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_platform-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_platform-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-I4AHI2R4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-I4AHI2R4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-LLOA6A7M.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-LLOA6A7M.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-UU567GGY.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-UU567GGY.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/_metadata.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1730700791122" duration="4037000" />
       <workItem from="1730707726143" duration="229000" />
       <workItem from="1730708003723" duration="940000" />
-      <workItem from="1730937335308" duration="4019000" />
+      <workItem from="1730937335308" duration="4746000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -197,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730938078425</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="header...">
+      <option name="closed" value="true" />
+      <created>1730942462558</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730942462559</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +217,7 @@
     <MESSAGE value="app structure and css added" />
     <MESSAGE value="task service create" />
     <MESSAGE value="Design Project domain." />
-    <option name="LAST_COMMIT_MESSAGE" value="Design Project domain." />
+    <MESSAGE value="header..." />
+    <option name="LAST_COMMIT_MESSAGE" value="header..." />
   </component>
 </project>
