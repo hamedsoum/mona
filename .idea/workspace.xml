@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="app structure and css added">
-      <change afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-task.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/services/ma-task.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" afterDir="false" />
+    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="task service create">
+      <change afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/constants/ma-endpoints.constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-endpoints.constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/domaines/ma-task.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-task.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,7 @@
       <recent name="$PROJECT_DIR$/src/api/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/modules/tasks" />
       <recent name="$PROJECT_DIR$/src/app" />
     </key>
   </component>
@@ -112,7 +106,8 @@
       <workItem from="1730588495826" duration="1390000" />
       <workItem from="1730700791122" duration="4037000" />
       <workItem from="1730707726143" duration="229000" />
-      <workItem from="1730708003723" duration="486000" />
+      <workItem from="1730708003723" duration="940000" />
+      <workItem from="1730937335308" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -170,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730541774538</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="task service create">
+      <option name="closed" value="true" />
+      <created>1730708750425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730708750425</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +183,7 @@
     <MESSAGE value="@auth0/angular-jwt installed ..." />
     <MESSAGE value="...." />
     <MESSAGE value="app structure and css added" />
-    <option name="LAST_COMMIT_MESSAGE" value="app structure and css added" />
+    <MESSAGE value="task service create" />
+    <option name="LAST_COMMIT_MESSAGE" value="task service create" />
   </component>
 </project>
