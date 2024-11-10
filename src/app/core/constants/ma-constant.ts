@@ -1,0 +1,1 @@
+export const MA_LOCAL_STORAGE_PROJECTS = 'maLocalStorageProjects';
