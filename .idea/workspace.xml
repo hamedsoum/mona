@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="header...">
-      <change afterPath="$PROJECT_DIR$/src/app/core/constants/ma-constant.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/ma-utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/services/ma-project.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/services/ma.local-storage-project.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/sh-topography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
+    <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="project service ....">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/services/ma-project-local-storage.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/services/ma-project-local-storage.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/iroxs/DEV/training/angular/mona/src/api/services&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/iroxs/DEV/training/angular/mona/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/iroxs/DEV/training/angular/mona/src/api/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "ts.external.directory.path": "/Users/iroxs/DEV/training/angular/mona/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/api/services" />
@@ -116,7 +108,8 @@
       <workItem from="1730707726143" duration="229000" />
       <workItem from="1730708003723" duration="940000" />
       <workItem from="1730937335308" duration="5051000" />
-      <workItem from="1731239021016" duration="9267000" />
+      <workItem from="1731239021016" duration="9630000" />
+      <workItem from="1731366510701" duration="1677000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -214,7 +207,39 @@
       <option name="project" value="LOCAL" />
       <updated>1730970504366</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="header...">
+      <option name="closed" value="true" />
+      <created>1731251780076</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731251780076</updated>
+    </task>
+    <task id="LOCAL-00014" summary="header...">
+      <option name="closed" value="true" />
+      <created>1731251786318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731251786318</updated>
+    </task>
+    <task id="LOCAL-00015" summary="project service ....">
+      <option name="closed" value="true" />
+      <created>1731367678855</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731367678855</updated>
+    </task>
+    <task id="LOCAL-00016" summary="project service ....">
+      <option name="closed" value="true" />
+      <created>1731367683191</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731367683191</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +263,7 @@
     <MESSAGE value="task service create" />
     <MESSAGE value="Design Project domain." />
     <MESSAGE value="header..." />
-    <option name="LAST_COMMIT_MESSAGE" value="header..." />
+    <MESSAGE value="project service ...." />
+    <option name="LAST_COMMIT_MESSAGE" value="project service ...." />
   </component>
 </project>
