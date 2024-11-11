@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="header...">
-      <change afterPath="$PROJECT_DIR$/src/app/core/constants/ma-constant.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/ma-utils.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/services/ma-project.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/core/services/ma.local-storage-project.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/sh-topography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/services/ma.local-storage-project.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/services/ma-project-local-storage.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +105,8 @@
       <workItem from="1730707726143" duration="229000" />
       <workItem from="1730708003723" duration="940000" />
       <workItem from="1730937335308" duration="5051000" />
-      <workItem from="1731239021016" duration="9267000" />
+      <workItem from="1731239021016" duration="9630000" />
+      <workItem from="1731366510701" duration="1010000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -214,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730970504366</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="header...">
+      <option name="closed" value="true" />
+      <created>1731251780076</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1731251780076</updated>
+    </task>
+    <task id="LOCAL-00014" summary="header...">
+      <option name="closed" value="true" />
+      <created>1731251786318</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1731251786318</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
