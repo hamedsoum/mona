@@ -30,6 +30,7 @@
     "@sh/authentication": "file:/Users/iroxs/DEV/training/angular/sh-ng-lib/dist/sh-authentication",
     "@sh/base": "file:/Users/iroxs/DEV/training/angular/sh-ng-lib/dist/sh-base",
     "@sh/core": "file:/Users/iroxs/DEV/training/angular/sh-ng-lib/dist/sh-core",
+    "@types/lodash": "^4.17.13",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
