@@ -1,9 +1,10 @@
 import {
   DomSanitizer
-} from "./chunk-CP24GQRL.js";
+} from "./chunk-A2CQM6HV.js";
+import "./chunk-SPH54DCB.js";
 import {
   DOCUMENT
-} from "./chunk-O2S5RBXV.js";
+} from "./chunk-K4YIB5ZX.js";
 import {
   Component,
   Directive,
@@ -32,7 +33,7 @@ import {
   ɵɵprojection,
   ɵɵprojectionDef,
   ɵɵsanitizeHtml
-} from "./chunk-QGXACWEP.js";
+} from "./chunk-DT5EOPLY.js";
 import {
   __spreadProps,
   __spreadValues

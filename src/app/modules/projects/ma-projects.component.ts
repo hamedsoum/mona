@@ -1,4 +1,5 @@
 import {Component, Input} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'ma-projects',
@@ -11,8 +12,10 @@ export class MAProjectsComponent {
 
   @Input() styleClass? : string;
 
-  public create(): void {
-    console.log("Create new Project");
+  constructor(private router: Router) {
   }
 
+  public goToForm(): void {
+    this.router.navigateByUrl('projects/form').then();
+  }
 }
