@@ -5,10 +5,12 @@
         <ul class="sh-list-inline-container">
             <li (click)="goTo('projects/all')" class="sh-cursor-pointer">Projects</li>
             <li>DashBoard</li>
-            <li><button>Create</button></li>
         </ul>
     </div>
-
+    <div class="sh-flex-row">
+        <input placeholder="Search" class="sh-min-width-full sh-mr-15-imp" type="text">
+        <ma-button label="Create" (clickEvent)="goTo('projects/form')"></ma-button>
+    </div>
     <div>
         <fa-icon class="sh-mr-20" [icon]="ICON_NOTIFICATIONS"></fa-icon>
         <fa-icon class="sh-mr-20" [icon]="ICON_SETTINGS"></fa-icon>

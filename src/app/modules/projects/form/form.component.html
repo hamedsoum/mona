@@ -1,3 +1,30 @@
-<div class="{{styleClass}}">
+<form [formGroup]="formGroup!" class="{{styleClass}}" method="POST">
+    <div class="sh-flex-column">
+        <input
+                class="sh-mb-5"
+                formControlName="name"
+                type="text"
+                name="name"
+                id="name">
+        <input
+                class="sh-mb-5"
+                formControlName="key"
+                type="text"
+                name="key"
+                id="key">
+        <textarea class="sh-mb-5" formControlName="description" name="description" rows="4" cols="50"></textarea>
+        <label for="type">Choose a type:</label>
+        <select
+                formControlName="type"
+                id="type"
+                name="type"
+                size="4"
+                multiple>
+            <option value="software">Volvo</option>
+            <option value="automobile">Saab</option>
+        </select>
+        <input class="sh-mtb-5" formControlName="lead" type="text" name="lead" id="lead">
 
-</div>
+        <button type="submit" (click)="save($event)">Create</button>
+    </div>
+</form>

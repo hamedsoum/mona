@@ -1,14 +1,15 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import {FormControl, FormGroup, Validators} from '@angular/forms';
+import {FormControl, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
 import {MAProject, MAProjectCreate} from '../../../core/domaines/ma-project';
 import {MAProjectLocalStorageService} from '../../../core/services/ma-project-local-storage.service';
 import {finalize, Subscription} from 'rxjs';
 import {isEqual} from 'lodash';
+import {SHUtils} from '@sh/base';
 
 @Component({
     selector: 'ma-form',
     standalone: true,
-    imports: [],
+    imports: [ReactiveFormsModule],
     templateUrl: './form.component.html',
     styleUrl: './form.component.scss'
 })
@@ -41,12 +42,24 @@ export class MAFormComponent implements OnInit, OnDestroy {
         this.subscription.unsubscribe();
     }
 
+    public save(event: Event): void {
+        event.preventDefault();
+        if (this.isCreateMode()) this.create();
+        else this.update();
+    }
+
+    private isCreateMode(): boolean {
+        return SHUtils.isEmpty(this.project);
+    }
+
     private buildCreate(): MAProjectCreate {
         const formData = this.formGroup!.value;
+
+        console.log('Form data ===>', formData);
         return {
             name: formData.name.trim(),
             key: formData.name.trim(),
-            description: formData.name.trim(),
+            description: formData.description.trim(),
             starred: formData.name,
             type: formData.type,
             lead: formData.lead
@@ -54,12 +67,17 @@ export class MAFormComponent implements OnInit, OnDestroy {
     }
 
     private create(): void {
+        console.log('Form group ===>', this.formGroup);
+
         if (!this.formGroup!.valid) return;
 
         this.loading = true;
         this.error = null;
 
         const projectCreate = this.buildCreate();
+
+        console.log('projectCreate ===>', projectCreate);
+
         this.subscription.add(this.projectLocalStorageService.create(projectCreate)
             .pipe(finalize(() => this.loading = false))
             .subscribe(
@@ -78,7 +96,7 @@ export class MAFormComponent implements OnInit, OnDestroy {
         if (!this.formGroup?.valid) return;
         console.debug('Updating project [projectID: ' + this.projectID + '] ...');
 
-        const updateData: { [key: string]: any } = this.buildUpdate();
+        const updateData: Map<string, any> = this.buildUpdate();
 
         if (updateData.size === 0) {
             console.debug('Project not updated. No change detect ...');
@@ -88,21 +106,30 @@ export class MAFormComponent implements OnInit, OnDestroy {
         this.error = null;
 
         this.subscription.add(
-            this.projectLocalStorageService.update(this.project!.id, updateData).subscribe
+            this.projectLocalStorageService.update(this.project!.id, updateData)
+                .subscribe(
+                    {
+                        next: (response: MAProject) => {
+                            console.debug('Project successfully updated :-) [id: ' + this.project!.id + ']');
+                            this.saveEvent.emit(response);
+                        },
+                        error: error => this.error = error
+                    }
+                )
         );
     }
 
-    private buildUpdate(): { [key: string]: any } {
+    private buildUpdate(): Map<string, any> {
 
         const formData = this.formGroup!.value;
-        let fieldValueData: { [key: string]: any } = {};
+        let fieldValueData: Map<string, any> = new Map();
 
-        if (!isEqual(formData.name, this.project?.name)) fieldValueData['name'] = formData.name;
-        if (!isEqual(formData.key, this.project?.key)) fieldValueData['key'] = formData.key;
-        if (!isEqual(formData.description, this.project?.description)) fieldValueData['description'] = formData.description;
-        if (!isEqual(formData.starred, this.project?.starred)) fieldValueData['starred'] = formData.starred;
-        if (!isEqual(formData.type, this.project?.type)) fieldValueData['type'] = formData.type;
-        if (!isEqual(formData.lead, this.project?.lead)) fieldValueData['lead'] = formData.lead;
+        if (!isEqual(formData.name, this.project?.name)) fieldValueData.set('name', formData.name);
+        if (!isEqual(formData.key, this.project?.key)) fieldValueData.set('key', formData.key);
+        if (!isEqual(formData.description, this.project?.description)) fieldValueData.set('description', formData.description);
+        if (!isEqual(formData.starred, this.project?.starred)) fieldValueData.set('starred', formData.starred);
+        if (!isEqual(formData.type, this.project?.type)) fieldValueData.set('type', formData.type);
+        if (!isEqual(formData.lead, this.project?.lead)) fieldValueData.set('lead', formData.lead);
 
         return fieldValueData;
     }

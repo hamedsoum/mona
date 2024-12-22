@@ -1,7 +1,38 @@
 <div class="sh-width-full {{styleClass}}">
 
     <div class="sh-flex-row sh-justify-content-space-between sh-align-items-center">
-        <span>Projects</span>
-        <button (click)="goToForm()">Create Project</button>
+        <h1>Projects</h1>
+        <ma-button label="Create Project" (clickEvent)="goToForm()"></ma-button>
+    </div>
+
+    <div class="sh-flex-column sh-mt-20">
+        <table>
+            <thead>
+            <tr>
+                <th>star</th>
+                <th>Name</th>
+                <th>Key</th>
+                <th>Type</th>
+                <th>Leads</th>
+                <th>More actions</th>
+            </tr>
+            </thead>
+            <tbody>
+                @for (project of projects; track project.name) {
+                    <tr>
+                        <td>{{ project.starred }}</td>
+                        <td>{{ project.name }}</td>
+                        <td>{{ project.key }}</td>
+                        <td>{{ project.type[0] }}</td>
+                        <td>{{ project.lead.name?.firstName }}</td>
+                        <td></td>
+                    </tr>
+                } @empty {
+                    <tr>
+                        <td>There are no items.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
 </div>
