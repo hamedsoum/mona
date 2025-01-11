@@ -1,9 +1,9 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {MAProjectPartial, MAProjectSearch} from '../../core/domaines/ma-project';
-import {MAProjectLocalStorageService} from '../../core/services/ma-project-local-storage.service';
+import {MAProjectPartial, MAProjectSearch} from '../../domaines/ma-project';
+import {MAProjectLocalStorageService} from '../../services/ma-project-local-storage.service';
 import {finalize} from 'rxjs';
-import {SHSearchResult} from '@sh/base';
+import {SHSearchResult} from '../../../../../../sh-ng-lib/dist/sh-base';
 import {MAButtonComponent} from '../components/buttons/ma-button.component';
 
 @Component({
@@ -44,7 +44,6 @@ export class MAProjectsComponent implements OnInit {
                 {
                     next: (response: SHSearchResult<MAProjectPartial>) => {
                         this.projects = response.data;
-                        console.log('Project find ===>', this.projects);
                     },
                     error: error => this.error = error
                 }

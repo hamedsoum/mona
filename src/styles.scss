@@ -4,114 +4,55 @@
 @import '../src/app/styles/sh-constant';
 @import '../src/app/styles/sh-sizing';
 @import '../src/app/styles/sh-spacing';
+@import '../src/app/styles/sh-flex';
 
 body {
-	height: 100vh;
-	width: 100%;
-	margin: 0;
-	color: #44546F;
-	font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  color: #44546F;
+  font-size: 14px;
+  font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.sh-flex {
-	display: flex;
-}
+$colorSelected: #1868DB;
+$backgroundSelected: #E9F2FE;
 
 .sh-cursor-pointer {
-	cursor: pointer;
-}
-
-.sh-flex-row {
-	display: flex;
-	flex-direction: row;
-}
-
-.sh-flex-row-imp {
-	display: flex !important;
-	flex-direction: row !important;
-}
-
-.sh-flex-column {
-	display: flex;
-	flex-direction: column;
-}
-
-.sh-flex-column-imp {
-	display: flex !important;
-	flex-direction: column !important;
-}
-
-.sh-justify-content-space-between {
-	justify-content: space-between;
-}
-
-.sh-justify-content-center {
-	justify-content: center;
-}
-
-.sh-justify-content-end {
-	justify-content: end;
-}
-
-.sh-align-items-center {
-	align-items: center;
-}
-
-.sh-align-items-star {
-	align-items: start;
-}
-
-.sh-align-items-end {
-	align-items: end;
-}
-
-.sh-height-full {
-	height: 100%;
-}
-
-.sh-height-full-imp {
-	height: 100% !important;
-}
-
-.sh-width-full {
-	width: 100%;
-}
-
-.sh-width-full-imp {
-	width: 100% !important;
-}
-
-.sh-position-relative {
-	position: relative;
-}
-
-.sh-position-absolute {
-	position: absolute;
-}
-
-.sh-top-0 {
-	top: 0;
-}
-
-.sh-top-10 {
-	top: 10px;
-}
-
-.sh-bottom-0 {
-	bottom: 0;
-}
-
-.sh-right-0 {
-	right: 0;
-}
-
-.sh-left-0 {
-	left: 0;
+  cursor: pointer;
 }
 
 .sh-list-inline-container {
-	li {
-		display: inline;
-		margin-right: 20px;
-	}
+  padding-inline-start: 0px !important;
+  padding-inline-end: 0px !important;
+
+  li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 7px 0px 7px 5px;
+  }
+
+  li:hover {
+    background-color: #0B120E24;
+    border-radius: 3px;
+  }
+
+  .active {
+    background-color: $backgroundSelected;
+    color: $colorSelected;
+    border-radius: 3px;
+  }
+
+  .active:hover {
+    background-color: $backgroundSelected !important;
+  }
 }
+
+body[scheme='light'] {
+  --primary-color: #0052CC;
+}
+
+body[scheme='dark'] {
+  --primary-color: #679df1;
+}
+

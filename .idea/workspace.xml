@@ -5,70 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ab05b25-cd83-4264-89c4-36dd3078e956" name="Changes" comment="...">
-      <change afterPath="$PROJECT_DIR$/src/app/modules/components/buttons/ma-button.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/modules/components/buttons/ma-button.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/styles/sh.button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/templates/logo/logo.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/core/templates/ma-templates.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/styles/sh-flex.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/.tsbuildinfo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/angular-compiler.db-lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_common_http.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_common_http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_forms.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_forms.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_platform-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_platform-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@angular_router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@fortawesome_angular-fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@fortawesome_angular-fontawesome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@fortawesome_angular-fontawesome.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@fortawesome_angular-fontawesome.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@fortawesome_free-solid-svg-icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/@fortawesome_free-solid-svg-icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-A2CQM6HV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-A2CQM6HV.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-DT5EOPLY.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-DT5EOPLY.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-K4YIB5ZX.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-K4YIB5ZX.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-SPH54DCB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-SPH54DCB.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-WDMUDEB6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/chunk-WDMUDEB6.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/uuid.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps/uuid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_common_http.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_common_http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_core.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_forms.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_forms.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_platform-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_platform-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_platform-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_platform-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_platform-server.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_platform-server.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@angular_router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@fortawesome_angular-fontawesome.js" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@fortawesome_angular-fontawesome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@fortawesome_angular-fontawesome.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/@fortawesome_angular-fontawesome.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-AX3ZPC5M.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-AX3ZPC5M.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-COG2KMPV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-COG2KMPV.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-JFUDDWHO.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-JFUDDWHO.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-TW4XVQZD.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.angular/cache/18.2.8/mona/vite/deps_ssr/chunk-TW4XVQZD.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/domaines/ma-project.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/mock/sh-mock.constant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/mock/sh-mock.constant.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/core/services/ma-project-local-storage.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/services/ma-project-local-storage.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/form/form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/projects/form/form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/form/ma-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/projects/form/ma-form.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/constants/ma-route.contant.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/core/services/ma-authentication.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/services/ma-authentication.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/login/login.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/login/login.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/components/buttons/ma-button.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/components/buttons/ma-button.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/components/buttons/ma-button.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/components/buttons/ma-button.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/form/form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/form/form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/form/form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/form/form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/form/form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/form/form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/form/ma-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/form/ma-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/ma-projects.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/ma-projects.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/ma-projects.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/ma-projects.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/ma-projects.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/record/ma-project-record.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/record/ma-project-record.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/record/ma-project-record.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/record/ma-project-record.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/record/ma-project-record.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/record/ma-project-record.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/modules/projects/record/ma-project-record.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/modules/projects/record/ma-project-record.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/sh-sizing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/sh-sizing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/footer/ma-footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/footer/ma-footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/footer/ma-footer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/footer/ma-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/footer/ma-footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/header/sh-menu-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/header/sh-menu-item.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/logo/logo.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/logo/logo.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/logo/logo.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/logo/logo.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/logo/logo.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/logo/logo.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/logo/logo.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/ma-templates.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/sidebar/sidebar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/sidebar/sidebar.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/sidebar/sidebar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/templates/sidebar/sidebar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/core/templates/sidebar/sidebar.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,31 +93,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/iroxs/DEV/training/angular/mona/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/iroxs/DEV/training/angular/mona/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/iroxs/DEV/training/angular/mona",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/iroxs/DEV/training/angular/mona/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/api/services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/core/shared/components" />
+      <recent name="$PROJECT_DIR$/src/app/core" />
       <recent name="$PROJECT_DIR$/src/app/modules/projects" />
       <recent name="$PROJECT_DIR$/src/app/modules/tasks" />
       <recent name="$PROJECT_DIR$/src/app" />
@@ -153,8 +144,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -184,7 +174,9 @@
       <workItem from="1732094408296" duration="5280000" />
       <workItem from="1732364412869" duration="3616000" />
       <workItem from="1732395325940" duration="2629000" />
-      <workItem from="1734872445499" duration="10633000" />
+      <workItem from="1734872445499" duration="11376000" />
+      <workItem from="1735072945407" duration="8569000" />
+      <workItem from="1736618183683" duration="6215000" />
     </task>
     <task id="LOCAL-00001" summary="@auth0/angular-jwt installed ...">
       <option name="closed" value="true" />
@@ -394,7 +386,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732364432329</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="...">
+      <option name="closed" value="true" />
+      <created>1734904900869</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734904900869</updated>
+    </task>
+    <task id="LOCAL-00028" summary="...">
+      <option name="closed" value="true" />
+      <created>1734904910639</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1734904910639</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

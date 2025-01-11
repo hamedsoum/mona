@@ -1,0 +1,16 @@
+<div class="sh-plr-10 {{styleClass}}">
+
+    <div class="sh-flex-row sh-align-items-center sh-ptb-10">
+        <fa-icon class="sh-mr-12" [icon]="ICON_ALL"></fa-icon>
+        <ma-logo></ma-logo>
+    </div>
+
+    <ul class="sh-list-inline-container sh-pt-30">
+        @for (item of items; track item.id) {
+            <li (click)="item.click!()" [routerLink]="item.link" routerLinkActive="active">
+                <fa-icon class="sh-mr-12" [icon]="item.icon!"></fa-icon>
+                <span>{{ item.label }}</span>
+            </li>
+        }
+    </ul>
+</div>

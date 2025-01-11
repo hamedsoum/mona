@@ -1,1 +1,0 @@
-export interface SHMenuItem {    id: string;    styleClass?: string;    disabled?: boolean;    label: string;    icon?: string;    iconStyle?: string;    link: string;}

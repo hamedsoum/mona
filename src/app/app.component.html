@@ -1,9 +1,11 @@
 <div class="sh-mona-main-container sh-flex-column sh-width-full sh-height-full">
-    <ma-header class="sh-mona-main-header sh-height-percent-6"></ma-header>
-    <div class="sh-mona-main-content sh-flex-row sh-height-percent-94">
+    <div class="sh-mona-main-content sh-flex-row sh-height-full">
         <ma-sidebar class="sh-mona-main-sidebar sh-width-percent-20"></ma-sidebar>
-        <div class="sh-mona-main-body sh-flex-column sh-width-percent-80">
-            <router-outlet></router-outlet>
+        <div class="sh-flex-column sh-height-full sh-width-percent-80">
+            <ma-header class="sh-mona-main-header sh-height-percent-6 sh-mtb-15"></ma-header>
+            <div class="sh-mona-main-body sh-height-full sh-flex-column">
+                <router-outlet></router-outlet>
+            </div>
         </div>
     </div>
 </div>

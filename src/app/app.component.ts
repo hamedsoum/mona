@@ -1,7 +1,7 @@
 import {Component, inject} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
 import {MAAuthenticationService} from './core/services/ma-authentication.service';
-import {MATemplatesModule} from './templates/ma-templates.module';
+import {MATemplatesModule} from './core/templates/ma-templates.module';
 
 @Component({
     selector: 'app-root',

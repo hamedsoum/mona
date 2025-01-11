@@ -1,0 +1,11 @@
+<div class="sh-flex-row sh-justify-content-space-between sh-align-items-center sh-plr-20 {{styleClass}}">
+    <div class="sh-flex-row sh-width-900">
+        <input placeholder="Search" class="sh-width-full sh-max-width-800 sh-mr-15-imp" type="text">
+        <ma-button label="Create" (clickEvent)="goTo('projects/form')"></ma-button>
+    </div>
+    <div class="sh-flex-row sh-align-items-center">
+        <fa-icon class="sh-mr-20" [icon]="ICON_NOTIFICATIONS"></fa-icon>
+        <fa-icon class="sh-mr-20" [icon]="ICON_SETTINGS"></fa-icon>
+        <ma-user-avatar></ma-user-avatar>
+    </div>
+</div>

@@ -1,10 +1,10 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import {FormControl, FormGroup, ReactiveFormsModule, Validators} from '@angular/forms';
-import {MAProject, MAProjectCreate} from '../../../core/domaines/ma-project';
-import {MAProjectLocalStorageService} from '../../../core/services/ma-project-local-storage.service';
+import {MAProject, MAProjectCreate} from '../../../domaines/ma-project';
+import {MAProjectLocalStorageService} from '../../../services/ma-project-local-storage.service';
 import {finalize, Subscription} from 'rxjs';
 import {isEqual} from 'lodash';
-import {SHUtils} from '@sh/base';
+import {SHUtils} from '../../../../../../../sh-ng-lib/dist/sh-base';
 
 @Component({
     selector: 'ma-form',
