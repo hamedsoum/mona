@@ -1,0 +1,30 @@
+.ma-table {
+  border: 1px solid #0B120E24;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+
+  .header {
+    background-color: #F8F8F8;
+    border-top-left-radius: 8px;
+    vertical-align: middle;
+    padding-left: 10px;
+    appearance: none;
+
+    .header-th {
+      padding: 10px 4px;
+      text-align: start;
+    }
+  }
+
+  .tr-body {
+    tr {
+      td {
+        padding: 10px 0;
+      }
+    }
+
+  }
+}

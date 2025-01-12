@@ -1,0 +1,22 @@
+<div class="sh-flex-column ma-table {{styleClass}}">
+    <table>
+        <thead class="header">
+        <tr>
+            @for (option of options; track option.field) {
+                <th class="header-th">{{ option.header }}</th>
+            }
+        </tr>
+        </thead>
+        <tbody>
+
+            @for (oneData of data; track oneData) {
+                <tr class="tr-body">
+                    <ng-container
+                            [ngTemplateOutlet]="bodyTemplateRef"
+                            [ngTemplateOutletContext]="{$implicit:oneData}">
+                    </ng-container>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

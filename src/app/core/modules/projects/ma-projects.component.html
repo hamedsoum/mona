@@ -6,33 +6,43 @@
     </div>
 
     <div class="sh-flex-column sh-mt-20">
-        <table>
-            <thead>
-            <tr>
-                <th>star</th>
-                <th>Name</th>
-                <th>Key</th>
-                <th>Type</th>
-                <th>Leads</th>
-                <th>More actions</th>
-            </tr>
-            </thead>
-            <tbody>
-                @for (project of projects; track project.name) {
-                    <tr>
-                        <td>{{ project.starred }}</td>
-                        <td>{{ project.name }}</td>
-                        <td>{{ project.key }}</td>
-                        <td>{{ project.type[0] }}</td>
-                        <td>{{ project.lead.name?.firstName }}</td>
-                        <td></td>
-                    </tr>
-                } @empty {
-                    <tr>
-                        <td>Loading...</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
+        <ma-table [data]="projects!" [options]="tableOptions">
+            <ng-template let-oneData #body>
+                <td class="sh-ptb-10">{{ oneData.starred }}</td>
+                <td class="sh-ptb-10">{{ oneData.name }}</td>
+                <td>{{ oneData.key }}</td>
+                <td>{{ oneData.type[0] }}</td>
+                <td>{{ oneData.lead.name?.firstName }}</td>
+                <td></td>
+            </ng-template>
+        </ma-table>
+        <!--        <table>-->
+        <!--            <thead>-->
+        <!--            <tr>-->
+        <!--                <th>star</th>-->
+        <!--                <th>Name</th>-->
+        <!--                <th>Key</th>-->
+        <!--                <th>Type</th>-->
+        <!--                <th>Leads</th>-->
+        <!--                <th>More actions</th>-->
+        <!--            </tr>-->
+        <!--            </thead>-->
+        <!--            <tbody>-->
+        <!--                @for (project of projects; track project.name) {-->
+        <!--                    <tr>-->
+        <!--                        <td>{{ project.starred }}</td>-->
+        <!--                        <td>{{ project.name }}</td>-->
+        <!--                        <td>{{ project.key }}</td>-->
+        <!--                        <td>{{ project.type[0] }}</td>-->
+        <!--                        <td>{{ project.lead.name?.firstName }}</td>-->
+        <!--                        <td></td>-->
+        <!--                    </tr>-->
+        <!--                } @empty {-->
+        <!--                    <tr>-->
+        <!--                        <td>Loading...</td>-->
+        <!--                    </tr>-->
+        <!--                }-->
+        <!--            </tbody>-->
+        <!--        </table>-->
     </div>
 </div>
