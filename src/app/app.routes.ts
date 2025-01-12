@@ -7,6 +7,7 @@ import {MAFormComponent} from './core/modules/projects/form/ma-form.component';
 import {DashboardComponent} from "./core/modules/dashboard/dashboard.component";
 
 export const routes: Routes = [
+    {path: ' ', redirectTo: MA_ROUTE.dashboard},
     {path: MA_ROUTE.authentication.login, component: LoginComponent},
     {path: MA_ROUTE.projects.all, component: MAProjectsComponent},
     {path: MA_ROUTE.projects.record, component: MAProjectRecordComponent},

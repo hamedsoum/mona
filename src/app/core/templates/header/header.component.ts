@@ -1,6 +1,7 @@
 import {Component, Input} from '@angular/core';
-import {faBell, faCog} from '@fortawesome/free-solid-svg-icons';
 import {Router} from '@angular/router';
+import {faBell} from "@fortawesome/free-regular-svg-icons";
+import {faCog} from "@fortawesome/free-solid-svg-icons";
 
 @Component({
     selector: 'ma-header',

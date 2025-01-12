@@ -1,10 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+$colorSelected: #1868DB;
+$backgroundSelected: #E9F2FE;
+
 @import '../src/app/styles/sh.button';
 @import '../src/app/styles/sh-constant';
+@import '../src/app/styles/sh-flex';
+@import '../src/app/styles/sh-table';
 @import '../src/app/styles/sh-sizing';
 @import '../src/app/styles/sh-spacing';
-@import '../src/app/styles/sh-flex';
 
 body {
   height: 100vh;
@@ -15,11 +19,12 @@ body {
   font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-$colorSelected: #1868DB;
-$backgroundSelected: #E9F2FE;
-
 .sh-cursor-pointer {
   cursor: pointer;
+}
+
+.sh-display-block {
+  display: block;
 }
 
 .sh-list-inline-container {

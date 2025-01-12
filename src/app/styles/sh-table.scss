@@ -1,0 +1,32 @@
+.ma-table {
+  border: 1px solid #0B120E24;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+
+  thead {
+    background-color: #F8F8F8;
+    border-top-left-radius: 8px;
+    vertical-align: middle;
+    padding-left: 10px;
+    appearance: none;
+
+    th {
+      padding: 15px 10px;
+      text-align: start;
+    }
+  }
+
+  tbody {
+    tr {
+      border-top: 1px solid #0B120E24 !important;
+      padding: 15px 0;
+
+      td {
+        padding: 15px 10px;
+      }
+    }
+  }
+}

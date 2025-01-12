@@ -4,45 +4,31 @@
         <h1>Projects</h1>
         <ma-button label="Create Project" (clickEvent)="goToForm()"></ma-button>
     </div>
-
+    <div class="sh-flex-row sh-justify-content-end sh-mtb-20">
+        <div (click)="refresh()" class="sh-flex-row sh-pr-15 sh-cursor-pointer">
+            <fa-icon [icon]="ICON_REFRESH"></fa-icon>
+            <span class="sh-display-block sh-ml-5">Refresh</span>
+        </div>
+    </div>
     <div class="sh-flex-column sh-mt-20">
-        <ma-table [data]="projects!" [options]="tableOptions">
+        <ma-table [loading]="loading" [data]="projects!" [options]="tableOptions">
             <ng-template let-oneData #body>
-                <td class="sh-ptb-10">{{ oneData.starred }}</td>
-                <td class="sh-ptb-10">{{ oneData.name }}</td>
+                <td class="sh-flex-row sh-align-items-center sh-width-30">
+                    <fa-icon (click)="onStarred(oneData.id, oneData.starred)"
+                             class="sh-cursor-pointer sh-mr-5"
+                             [ngClass]="{'starred': oneData.starred}"
+                             [icon]="ICON_STAR">
+                    </fa-icon>
+                    @if (loadingStarred) {
+                        <ma-loader></ma-loader>
+                    }
+                </td>
+                <td>{{ oneData.name }}</td>
                 <td>{{ oneData.key }}</td>
                 <td>{{ oneData.type[0] }}</td>
                 <td>{{ oneData.lead.name?.firstName }}</td>
                 <td></td>
             </ng-template>
         </ma-table>
-        <!--        <table>-->
-        <!--            <thead>-->
-        <!--            <tr>-->
-        <!--                <th>star</th>-->
-        <!--                <th>Name</th>-->
-        <!--                <th>Key</th>-->
-        <!--                <th>Type</th>-->
-        <!--                <th>Leads</th>-->
-        <!--                <th>More actions</th>-->
-        <!--            </tr>-->
-        <!--            </thead>-->
-        <!--            <tbody>-->
-        <!--                @for (project of projects; track project.name) {-->
-        <!--                    <tr>-->
-        <!--                        <td>{{ project.starred }}</td>-->
-        <!--                        <td>{{ project.name }}</td>-->
-        <!--                        <td>{{ project.key }}</td>-->
-        <!--                        <td>{{ project.type[0] }}</td>-->
-        <!--                        <td>{{ project.lead.name?.firstName }}</td>-->
-        <!--                        <td></td>-->
-        <!--                    </tr>-->
-        <!--                } @empty {-->
-        <!--                    <tr>-->
-        <!--                        <td>Loading...</td>-->
-        <!--                    </tr>-->
-        <!--                }-->
-        <!--            </tbody>-->
-        <!--        </table>-->
     </div>
 </div>
