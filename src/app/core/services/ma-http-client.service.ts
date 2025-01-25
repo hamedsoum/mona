@@ -1,16 +1,14 @@
 import {Injectable} from '@angular/core';
-import {SHttpClientService} from '../../../../../sh-ng-lib/dist/sh-base';
+import {SHttpClientService} from '@sh/base';
 import {HttpClient} from '@angular/common/http';
 
 @Injectable({providedIn: 'root'})
 export class MAHttpClientService extends SHttpClientService {
 
-    readonly apiBaseURL = 'localhost'
+    readonly apiBaseURL = 'localhost';
 
     constructor(protected httpClient: HttpClient) {
-        super(httpClient, 'localhost:8080');
+        super(httpClient, 'localhost:0808');
     }
 
-    public initialize(): void {
-    }
 }
