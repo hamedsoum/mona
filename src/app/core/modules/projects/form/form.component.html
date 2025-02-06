@@ -1,11 +1,10 @@
 <form [formGroup]="formGroup!" class="{{styleClass}}" method="POST">
     <div class="sh-flex-column">
-        <input
-                class="sh-mb-5"
-                formControlName="name"
-                type="text"
-                name="name"
-                id="name">
+        <ma-input-text
+                placeholder="Name"
+                [required]="true"
+                formControlName="name">
+        </ma-input-text>
         <input
                 class="sh-mb-5"
                 formControlName="key"

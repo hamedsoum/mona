@@ -5,11 +5,12 @@ import {MAProjectLocalStorageService} from '../../../services/ma-project-local-s
 import {finalize, Subscription} from 'rxjs';
 import {isEqual} from 'lodash';
 import {SHUtils} from '../../../../../../../sh-ng-lib/dist/sh-base';
+import {InputTextComponent} from '../../../shared/components/input/input-text/input-text.component';
 
 @Component({
     selector: 'ma-form',
     standalone: true,
-    imports: [ReactiveFormsModule],
+    imports: [ReactiveFormsModule, InputTextComponent],
     templateUrl: './form.component.html',
     styleUrl: './form.component.scss'
 })
@@ -148,6 +149,7 @@ export class MAFormComponent implements OnInit, OnDestroy {
 
     private buildFields(): void {
         this.formGroup = new FormGroup({
+            email: new FormControl('email', [Validators.required, Validators.email]),
             name: new FormControl(this.project?.name, [Validators.required]),
             key: new FormControl(this.project?.key, [Validators.required]),
             description: new FormControl(this.project?.description),
